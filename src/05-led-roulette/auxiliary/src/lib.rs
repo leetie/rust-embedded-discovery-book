@@ -9,7 +9,7 @@ pub use cortex_m_rt::entry;
 pub use stm32f3_discovery::{leds::Leds, stm32f3xx_hal, switch_hal};
 pub use switch_hal::{ActiveHigh, OutputSwitch, Switch, ToggleableOutputSwitch};
 
-use stm32f3xx_hal::prelude::*;
+pub use stm32f3xx_hal::prelude::*;
 pub use stm32f3xx_hal::{
     delay::Delay,
     gpio::{gpioe, Output, PushPull},
